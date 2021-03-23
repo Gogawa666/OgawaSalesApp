@@ -9,8 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        
+        NavigationLink(destination: ShoesView()) {
+            
+            TitleView(title: "Shoes",
+                      icon: "👟")
+            
+            
+
+        }
+
+        NavigationLink(destination: ClothesView()) {
+            
+            TitleView(title: "Clothes",
+                               icon: "🧥")
+
+        }
     }
 }
 

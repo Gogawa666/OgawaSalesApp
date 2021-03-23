@@ -24,8 +24,7 @@ struct SimpleListItemView: View {
                 
                 Text(title)
                 
-                Text(caption)
-                    .font(.caption)
+                
             
         }
         
@@ -37,6 +36,6 @@ struct SimpleListItemView: View {
 struct SimpleListItemView_Previews: PreviewProvider {
     static var previews: some View {
         SimpleListItemView(title: "Some title",
-                           caption: "Some caption")
+                           icon: "Some icon")
     }
 }
