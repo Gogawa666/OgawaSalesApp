@@ -10,14 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
+        VStack{
         
         NavigationLink(destination: ShoesView()) {
             
             TitleView(title: "Shoes",
                       icon: "👟")
-            
-            
-
         }
 
         NavigationLink(destination: ClothesView()) {
@@ -27,6 +25,7 @@ struct ContentView: View {
 
         }
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {

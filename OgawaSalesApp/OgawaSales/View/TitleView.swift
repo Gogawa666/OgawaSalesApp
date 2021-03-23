@@ -7,10 +7,9 @@
 
 import SwiftUI
 
-struct SimpleListItemView: View {
+struct TitleView: View {
     
     var title: String
-    var caption: String
     var icon: String
     
     var body: some View {
@@ -33,9 +32,9 @@ struct SimpleListItemView: View {
     }
 }
 
-struct SimpleListItemView_Previews: PreviewProvider {
+struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
-        SimpleListItemView(title: "Some title",
+        TitleView(title: "Some title",
                            icon: "Some icon")
     }
 }
