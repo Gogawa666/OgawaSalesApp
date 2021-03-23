@@ -8,25 +8,58 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         
         VStack{
+            
+            List {
+                Section(header: Text("Mens")) {
+                    
+                    
+                    NavigationLink(destination: ShoesView()) {
+                        
+                        TitleView(title: "Shoes",
+                                  icon: "👟")
+                    }
+                    
+                    NavigationLink(destination: ClothesView()) {
+                        
+                        TitleView(title: "Clothes",
+                                  icon: "🧥")
+                    }
+                    
+                  
+                        
+                    }
+         
+                    
+                
+           
+            }
         
-        NavigationLink(destination: ShoesView()) {
+      
+        
+        NavigationLink(destination: CartView()) {
             
-            TitleView(title: "Shoes",
-                      icon: "👟")
+            Text(" 🛒 ").background(Color.yellow)
         }
-
-        NavigationLink(destination: ClothesView()) {
             
-            TitleView(title: "Clothes",
-                               icon: "🧥")
-
+        
+            
+            .listStyle(GroupedListStyle())
+            
         }
+        
+       
+            
+        
+        
+        .navigationTitle("Home")
+        
     }
 }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
