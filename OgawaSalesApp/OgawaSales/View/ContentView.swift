@@ -29,8 +29,13 @@ struct ContentView: View {
                                   icon: "🧥")
                     }
                     
-                  
+                    NavigationLink(destination: BooksView()) {
                         
+                        TitleView(title: "Books",
+                                  icon: "📚")
+                    }
+
+
                     }
          
                     
