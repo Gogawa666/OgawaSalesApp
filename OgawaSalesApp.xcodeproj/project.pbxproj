@@ -16,6 +16,7 @@
 		BE519E35260A71E80056320C /* ClothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E34260A71E80056320C /* ClothesView.swift */; };
 		BE519E38260A764D0056320C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E37260A764D0056320C /* CartView.swift */; };
 		BE519E3B260AF8660056320C /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E3A260AF8660056320C /* BooksView.swift */; };
+		BE519E3E260AF94C0056320C /* StuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E3D260AF94C0056320C /* StuffView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BE519E34260A71E80056320C /* ClothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesView.swift; sourceTree = "<group>"; };
 		BE519E37260A764D0056320C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		BE519E3A260AF8660056320C /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		BE519E3D260AF94C0056320C /* StuffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				BE519E34260A71E80056320C /* ClothesView.swift */,
 				BE519E37260A764D0056320C /* CartView.swift */,
 				BE519E3A260AF8660056320C /* BooksView.swift */,
+				BE519E3D260AF94C0056320C /* StuffView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				BE519E1D260A6EB50056320C /* ContentView.swift in Sources */,
 				BE519E3B260AF8660056320C /* BooksView.swift in Sources */,
 				BE519E1B260A6EB50056320C /* OgawaSalesAppApp.swift in Sources */,
+				BE519E3E260AF94C0056320C /* StuffView.swift in Sources */,
 				BE519E2E260A6F760056320C /* TitleView.swift in Sources */,
 				BE519E32260A71DB0056320C /* ShoesView.swift in Sources */,
 			);
