@@ -20,65 +20,66 @@ struct Thing: Identifiable {
 let shoes = [
     
     Thing(hint: "👟",
-          title: "Jordan 1 mid banned",
+          title: "Jordan 1 mid Banned",
           summary: "$200",
           segments: [
             
-            Segment(image: "",
+            Segment(image: "Ban1",
+                    text: ""),
+            
+            Segment(image: "Ban2",
                     text: "")
             
           ]),
     
-    Thing(hint: "",
-          title: "",
-          summary: "",
+    Thing(hint: "👟",
+          title: "Jordan 1 high Court Royal",
+          summary: "$400",
           segments: [
             
-            Segment(image: "",
+            Segment(image: "Royal1",
+                    text: ""),
+            
+            Segment(image: "Royal2",
                     text: "")
             
           ]),
-  
-                  ]
+    
+    Thing(hint: "👟",
+          title: "Blazer mid 77 purple",
+          summary: "$150",
+          segments: [
+            
+            Segment(image: "Bla1",
+                    text: ""),
+            
+            Segment(image: "Bla2",
+                    text: "")
+            
+          ])
+    
+    
+    
+]
 
 let clothes = [
-               
-    Thing(hint: "",
-          title: "",
-          summary: "",
+    
+    Thing(hint: "🥼",
+          title: "Camo Overshirt",
+          summary: "$80",
           segments: [
             
-            Segment(image: "",
+            Segment(image: "Camo",
                     text: "")
             
           ]),
     
-    Thing(hint: "",
-          title: "",
-          summary: "",
+    Thing(hint: "🥼",
+          title: "Denim Jacket",
+          summary: "$120",
           segments: [
             
-            Segment(image: "",
-                    text: "")
-            
-          ]),
-    
-    Thing(hint: "",
-          title: "",
-          summary: "",
-          segments: [
-            
-            Segment(image: "",
-                    text: "")
-            
-          ]),
-    
-    Thing(hint: "",
-          title: "",
-          summary: "",
-          segments: [
-            
-            Segment(image: "",
+            Segment(image: "Denim",
                     text: "")
             
           ])
@@ -87,25 +88,37 @@ let clothes = [
 
 let books = [
     
-    Thing(hint: "",
-          title: "",
-          summary: "",
+    Thing(hint: "📕",
+          title: "Where am I",
+          summary: "$30",
           segments: [
             
-            Segment(image: "",
+            Segment(image: "Soul",
                     text: "")
             
           ]),
     
-    Thing(hint: "",
+    Thing(hint: "📗",
           title: "",
           summary: "",
           segments: [
             
-            Segment(image: "",
+            Segment(image: "Herb",
+                    text: "")
+            
+          ]),
+    
+    Thing(hint: "📘",
+          title: "",
+          summary: "",
+          segments: [
+            
+            Segment(image: "Pines",
                     text: "")
             
           ])
+    
+    
     
 ]
 
