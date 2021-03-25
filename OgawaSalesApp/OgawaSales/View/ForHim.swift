@@ -1,18 +1,17 @@
 //
-//  ClothesView.swift
+//  ForHim.swift
 //  OgawaSalesApp
 //
-//  Created by Gaku Ogawa on 2021/03/23.
+//  Created by Gaku Ogawa on 2021/03/24.
 //
 
 import SwiftUI
 
-struct ClothesView: View {
-    var store = shoes
+struct ForHim: View {
     var body: some View {
         NavigationView {
             
-            List(clothes) { thing in
+            List(forhim) { thing in
                 
                 NavigationLink(destination: ThingDetail(someThing: thing)) {
                     
@@ -22,16 +21,15 @@ struct ClothesView: View {
                 
                 
             }
-            .navigationTitle("Men's clothes")
+            .navigationTitle("Gifts for him")
             
         }
         
     }
     
 }
-
-struct ClothesView_Previews: PreviewProvider {
+struct ForHim_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ForHim()
     }
 }

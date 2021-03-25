@@ -8,13 +8,30 @@
 import SwiftUI
 
 struct ShoesView: View {
+    var store = shoes
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            
+            List(shoes) { thing in
+                
+                NavigationLink(destination: ThingDetail(someThing: thing)) {
+                    
+                   ListItem(someThing: thing)
+                    
+                }
+                
+                
+            }
+            .navigationTitle("Men's shoes")
+            
+        }
+        
     }
+    
 }
 
 struct ShoesView_Previews: PreviewProvider {
     static var previews: some View {
-        ShoesView()
+        ContentView()
     }
 }

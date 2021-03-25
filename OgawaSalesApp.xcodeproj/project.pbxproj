@@ -16,7 +16,13 @@
 		BE519E35260A71E80056320C /* ClothesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E34260A71E80056320C /* ClothesView.swift */; };
 		BE519E38260A764D0056320C /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E37260A764D0056320C /* CartView.swift */; };
 		BE519E3B260AF8660056320C /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E3A260AF8660056320C /* BooksView.swift */; };
-		BE519E3E260AF94C0056320C /* StuffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E3D260AF94C0056320C /* StuffView.swift */; };
+		BE519E41260AFE170056320C /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E40260AFE170056320C /* HelpView.swift */; };
+		BE519E47260C0B410056320C /* ThingDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E46260C0B410056320C /* ThingDetail.swift */; };
+		BE519E4B260C0B630056320C /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E4A260C0B630056320C /* Segment.swift */; };
+		BE519E4E260C0B9B0056320C /* Things.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E4D260C0B9B0056320C /* Things.swift */; };
+		BE519E56260C13B60056320C /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E55260C13B60056320C /* ListItem.swift */; };
+		BE519E59260C197C0056320C /* ForHim.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E58260C197C0056320C /* ForHim.swift */; };
+		BE519E5D260C19930056320C /* ForHer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE519E5C260C19930056320C /* ForHer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +37,13 @@
 		BE519E34260A71E80056320C /* ClothesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothesView.swift; sourceTree = "<group>"; };
 		BE519E37260A764D0056320C /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		BE519E3A260AF8660056320C /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
-		BE519E3D260AF94C0056320C /* StuffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffView.swift; sourceTree = "<group>"; };
+		BE519E40260AFE170056320C /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		BE519E46260C0B410056320C /* ThingDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingDetail.swift; sourceTree = "<group>"; };
+		BE519E4A260C0B630056320C /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
+		BE519E4D260C0B9B0056320C /* Things.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Things.swift; sourceTree = "<group>"; };
+		BE519E55260C13B60056320C /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		BE519E58260C197C0056320C /* ForHim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForHim.swift; sourceTree = "<group>"; };
+		BE519E5C260C19930056320C /* ForHer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForHer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,8 @@
 		BE519E2A260A6F360056320C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BE519E4A260C0B630056320C /* Segment.swift */,
+				BE519E4D260C0B9B0056320C /* Things.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,7 +111,11 @@
 				BE519E34260A71E80056320C /* ClothesView.swift */,
 				BE519E37260A764D0056320C /* CartView.swift */,
 				BE519E3A260AF8660056320C /* BooksView.swift */,
-				BE519E3D260AF94C0056320C /* StuffView.swift */,
+				BE519E40260AFE170056320C /* HelpView.swift */,
+				BE519E46260C0B410056320C /* ThingDetail.swift */,
+				BE519E55260C13B60056320C /* ListItem.swift */,
+				BE519E58260C197C0056320C /* ForHim.swift */,
+				BE519E5C260C19930056320C /* ForHer.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -183,11 +201,17 @@
 				BE519E38260A764D0056320C /* CartView.swift in Sources */,
 				BE519E35260A71E80056320C /* ClothesView.swift in Sources */,
 				BE519E1D260A6EB50056320C /* ContentView.swift in Sources */,
+				BE519E5D260C19930056320C /* ForHer.swift in Sources */,
 				BE519E3B260AF8660056320C /* BooksView.swift in Sources */,
+				BE519E4E260C0B9B0056320C /* Things.swift in Sources */,
+				BE519E41260AFE170056320C /* HelpView.swift in Sources */,
+				BE519E59260C197C0056320C /* ForHim.swift in Sources */,
+				BE519E4B260C0B630056320C /* Segment.swift in Sources */,
 				BE519E1B260A6EB50056320C /* OgawaSalesAppApp.swift in Sources */,
-				BE519E3E260AF94C0056320C /* StuffView.swift in Sources */,
 				BE519E2E260A6F760056320C /* TitleView.swift in Sources */,
+				BE519E56260C13B60056320C /* ListItem.swift in Sources */,
 				BE519E32260A71DB0056320C /* ShoesView.swift in Sources */,
+				BE519E47260C0B410056320C /* ThingDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

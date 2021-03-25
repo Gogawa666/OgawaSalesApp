@@ -16,7 +16,6 @@ struct ContentView: View {
             List {
                 Section(header: Text("Mens")) {
                     
-                    
                     NavigationLink(destination: ShoesView()) {
                         
                         TitleView(title: "Shoes",
@@ -35,22 +34,41 @@ struct ContentView: View {
                                   icon: "📚")
                     }
                     
-                    NavigationLink(destination: StuffView()) {
+                    NavigationLink(destination: ForHim()) {
                         
-                        TitleView(title: "for him/her",
+                        TitleView(title: "for him",
                                   icon: "🎁")
                         
                     }
 
-
                     }
-         
+                
+                Section(header: Text("womens")) {
+                    
+                   
+                    NavigationLink(destination: ForHer()) {
+                        
+                        TitleView(title: "for her",
+                                  icon: "🎁")
+                        
+                    }
+                    
+                    
+                }
+                
+                Section(header: Text("Help")) {
+                    
+                    NavigationLink(destination: HelpView()) {
+                        
+                        TitleView(title: "Do you need help?",
+                                  icon: "❓")
+                        
+                    }
+                    
+                }
                     
                 
-           
-            }
-        
-      
+                }
         
         NavigationLink(destination: CartView()) {
             
